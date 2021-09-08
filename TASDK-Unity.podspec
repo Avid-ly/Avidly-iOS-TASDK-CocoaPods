@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = 'TASDK'
+  s.name             = 'TASDK-Unity'
   s.version          = '4.1.0.4'
-  s.summary          = 'TASDK 4.1.0.4'
+  s.summary          = 'TASDK Unity 4.1.0.4'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TraceAnalysisSDK 4.1.0.4
+TraceAnalysisSDK Unity 4.1.0.4
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-TASDK-CocoaPods.git', :tag => "#{s.version}.xcode" }
+  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-TASDK-CocoaPods.git', :tag => "#{s.version}.unity" }
 
   s.ios.deployment_target = '10.0'
 
