@@ -86,6 +86,13 @@
  */
 + (void)setAppsFlyerId:(NSString *)appsFlyerId;
 
+/**
+ 设置FirebaseId
+ 
+ @param firebaseId         [FIRAnalytics appInstanceID]
+ */
++ (void)setFirebaseId:(NSString *)firebaseId;
+
 #pragma mark - Log（打点）
 
 /**
