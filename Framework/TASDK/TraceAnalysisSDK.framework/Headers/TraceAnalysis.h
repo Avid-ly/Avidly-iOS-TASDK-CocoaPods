@@ -185,6 +185,7 @@ extern NSString *const TraceAnalysisLoginTypeInstagram;
 extern NSString *const TraceAnalysisLoginTypeGamecenter;
 extern NSString *const TraceAnalysisLoginTypeUlt;
 extern NSString *const TraceAnalysisLoginTypeApple;
+extern NSString *const TraceAnalysisLoginTypeEmail;
 extern NSString *const TraceAnalysisLoginTypeOther;
 
 /*
@@ -204,6 +205,7 @@ extern NSString *const TraceAnalysisLoginTypeOther;
  |--3.4）当登录方式为TraceAnalysisLoginTypeGamecenter时，此值传GameCenter返回的teamPlayerID或playerID
  |--3.5）当登录方式为TraceAnalysisLoginTypeApple时，此值传apple返回的identityToken字符串
  |--3.6）当登录方式为TraceAnalysisLoginTypeOther时，此值传对应的登录方式返回的能校验用户合法性的对应参数
+ |--3.7）当登录方式为TraceAnalysisLoginTypeEmail时，此值传email邮箱地址
  4、extension为扩展参数，可扩展一些透传参数，选填，默认填nil
  */
 + (void)logCommonLoginWithType:(NSString *)loginType
