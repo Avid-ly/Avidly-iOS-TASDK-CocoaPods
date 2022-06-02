@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TASDK'
-  s.version          = '4.1.0.6'
-  s.summary          = 'TASDK 4.1.0.6'
+  s.version          = '4.1.0.7'
+  s.summary          = 'TASDK 4.1.0.7'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TraceAnalysisSDK 4.1.0.6
+TraceAnalysisSDK 4.1.0.7
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
@@ -24,7 +24,7 @@ TraceAnalysisSDK 4.1.0.6
 
   s.frameworks = 'QuartzCore', 'MediaPlayer', 'CoreMedia', 'CoreGraphics', 'CFNetwork', 'WebKit', 'WatchConnectivity', 'SystemConfiguration', 'StoreKit', 'Social', 'MessageUI','JavaScriptCore','EventKit','CoreTelephony','AVFoundation','AdSupport'
 
-  s.vendored_frameworks = 'Framework/TASDK/TraceAnalysisSDK.framework'
+  s.vendored_frameworks = 'Framework/TASDK/TraceAnalysisSDK.xcframework'
 
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   s.xcconfig = {
